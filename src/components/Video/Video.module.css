@@ -1,0 +1,25 @@
+.video {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.aspect-169 {
+  padding-bottom: 56.25%;
+}
+
+.aspect-43 {
+  padding-bottom: 75%;
+}
+
+.aspect-11 {
+  padding-bottom: 100%;
+}

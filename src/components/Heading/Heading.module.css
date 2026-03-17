@@ -1,0 +1,13 @@
+.heading {
+  margin: 0 0 var(--spacing-md) 0;
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--font-line-height-tight);
+  font-family: var(--font-family-heading);
+}
+
+.heading-1 { font-size: var(--font-size-4xl); }
+.heading-2 { font-size: var(--font-size-2xl); }
+.heading-3 { font-size: var(--font-size-xl); }
+.heading-4 { font-size: var(--font-size-base); }
+.heading-5 { font-size: var(--font-size-sm); }
+.heading-6 { font-size: var(--font-size-xs); }
