@@ -1,0 +1,10 @@
+.meta {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-600);
+}
+
+.item:not(:last-child)::after {
+  content: '·';
+  margin-left: var(--spacing-sm);
+  color: var(--color-gray-400);
+}
