@@ -1,3 +1,20 @@
+## [1.4.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.3.0...v1.4.0) (2026-03-17)
+
+### Features
+
+* **components:** add core blog components ([9b6aede](https://github.com/mjpvs/agentic-component-library-test/commit/9b6aede2a96d24916d492e796449fccefe3cf44f))
+* **core components:** flatten file structure ([d1d2a49](https://github.com/mjpvs/agentic-component-library-test/commit/d1d2a49ed61cc54e0d91c19acbda36dd42b95d82))
+
+### Documentation
+
+* **readme:** add npm widget ([78391c3](https://github.com/mjpvs/agentic-component-library-test/commit/78391c3f38edb39e291398fe11f4e9e4e33a8f7c))
+
+### CI/CD
+
+* **code quality:** add chromatic testing on PR ([4e855c7](https://github.com/mjpvs/agentic-component-library-test/commit/4e855c7a3f42145f60dd7214744c9bd08236cfea))
+* **code quality:** add chromatic to package-lock ([d9b6f91](https://github.com/mjpvs/agentic-component-library-test/commit/d9b6f916c5e9654aeed153d1bb3e8b114fdca613))
+* **coverage:** add coverage reporting on PR ([f97533f](https://github.com/mjpvs/agentic-component-library-test/commit/f97533fa09cdb75d9ecb8e5a705855250b404fd4))
+
 ## [1.3.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.2.0...v1.3.0) (2026-03-17)
 
 ### Features
