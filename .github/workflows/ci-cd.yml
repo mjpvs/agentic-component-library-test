@@ -33,6 +33,13 @@ jobs:
       - name: Run tests
         run: npm test run
 
+      - name: Upload coverage
+        uses: actions/upload-artifact@v4
+        if: matrix.node-version == '24.x'
+        with:
+          name: coverage
+          path: coverage
+
       - name: Build
         run: npm run build
 
