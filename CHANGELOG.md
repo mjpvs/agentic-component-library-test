@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.1.0...v1.2.0) (2026-03-17)
+
+### Features
+
+* **coverage:** add coverage reporting ([1364b40](https://github.com/mjpvs/agentic-component-library-test/commit/1364b400e51069ba3b2811475e1cdc5e87055cb1))
+
 ## [1.1.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.0.0...v1.1.0) (2026-03-17)
 
 ### Features
