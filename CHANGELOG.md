@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.2.0...v1.3.0) (2026-03-17)
+
+### Features
+
+* **publication:** add publishConfig ([ee8a3fb](https://github.com/mjpvs/agentic-component-library-test/commit/ee8a3fb33c6df1af67e7a30c78f10ddb519cab1b))
+
 ## [1.2.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.1.0...v1.2.0) (2026-03-17)
 
 ### Features
