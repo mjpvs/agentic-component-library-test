@@ -43,6 +43,7 @@ export default {
         prepareCmd: 'npm run build:tokens && npm run build',
       },
     ],
+    '@semantic-release/npm',
     [
       '@semantic-release/git',
       {
