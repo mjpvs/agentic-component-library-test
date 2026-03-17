@@ -1,0 +1,16 @@
+.link {
+  color: var(--color-primary-500);
+  text-decoration: none;
+  transition: color var(--transition-duration-normal) var(--transition-ease-in-out);
+}
+
+.link:hover {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+}
+
+.icon {
+  display: inline-flex;
+  margin-left: var(--spacing-xs);
+  vertical-align: middle;
+}

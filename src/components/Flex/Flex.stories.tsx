@@ -3,7 +3,7 @@ import { Flex } from './Flex';
 import { Box } from '../Box/Box';
 
 const meta: Meta<typeof Flex> = {
-  title: 'Components/Layout/Flex',
+  title: 'Layout/Flex',
   component: Flex,
   tags: ['autodocs'],
   argTypes: {
