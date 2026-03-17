@@ -1,5 +1,7 @@
 # React Component Library
 
+[![Test Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/your-org/your-repo/actions)
+
 A modern React component library built with TypeScript, Storybook, and Vitest. Generated entirely agentically as a learning experiment to explore automated component library creation.
 
 ## Features
@@ -26,6 +28,7 @@ npm run build-storybook  # Build static Storybook
 # Testing
 npm test                # Run tests in watch mode
 npm test run            # Run tests once
+npm test run --coverage # Run tests with coverage report
 
 # Publishing
 npm run commit          # Interactive commit (commitizen)

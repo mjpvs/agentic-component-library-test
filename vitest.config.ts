@@ -14,5 +14,17 @@ export default defineConfig({
         singleFork: true,
       },
     },
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html'],
+      singleFork: true,
+      exclude: [
+        'node_modules/',
+        'src/test/',
+        'src/stories/',
+        '**/*.stories.tsx',
+        '**/*.test.tsx',
+      ],
+    },
   },
 });
