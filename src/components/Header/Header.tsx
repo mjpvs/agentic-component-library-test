@@ -1,4 +1,4 @@
-import { Flex } from '../../Flex/Flex';
+import { Flex } from '../Flex/Flex';
 import styles from './Header.module.css';
 
 export interface HeaderProps {

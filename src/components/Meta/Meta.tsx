@@ -1,4 +1,4 @@
-import { Flex } from '../../Flex/Flex';
+import { Flex } from '../Flex/Flex';
 import styles from './Meta.module.css';
 
 export interface MetaProps {

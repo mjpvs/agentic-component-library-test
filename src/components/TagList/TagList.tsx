@@ -1,4 +1,4 @@
-import { Flex } from '../../Flex/Flex';
+import { Flex } from '../Flex/Flex';
 import { Tag, TagProps } from '../Tag/Tag';
 import styles from './TagList.module.css';
 

@@ -1,9 +1,9 @@
 import parse, { Element, HTMLReactParserOptions } from 'html-react-parser';
-import { Image } from '../../media/Image/Image';
-import { Link } from '../../navigation/Link/Link';
-import { Video } from '../../media/Video/Video';
-import { CodeBlock } from '../../content/CodeBlock/CodeBlock';
-import { Blockquote } from '../../content/Blockquote/Blockquote';
+import { Image } from '../Image/Image';
+import { Link } from '../Link/Link';
+import { Video } from '../Video/Video';
+import { CodeBlock } from '../CodeBlock/CodeBlock';
+import { Blockquote } from '../Blockquote/Blockquote';
 import styles from './RichText.module.css';
 
 export interface RichTextProps {

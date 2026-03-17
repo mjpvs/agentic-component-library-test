@@ -1,8 +1,8 @@
-import { Card } from '../../layout/Card/Card';
-import { Heading } from '../../display/Heading/Heading';
-import { Image } from '../../media/Image/Image';
+import { Card } from '../Card/Card';
+import { Heading } from '../Heading/Heading';
+import { Image } from '../Image/Image';
 import { Meta } from '../Meta/Meta';
-import { TagList } from '../../navigation/TagList/TagList';
+import { TagList } from '../TagList/TagList';
 import styles from './ArticleCard.module.css';
 
 export interface ArticleCardProps {

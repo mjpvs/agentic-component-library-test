@@ -1,4 +1,4 @@
-import { Flex } from '../../Flex/Flex';
+import { Flex } from '../Flex/Flex';
 import styles from './Pagination.module.css';
 
 export interface PaginationProps {

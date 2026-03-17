@@ -1,4 +1,4 @@
-import { Grid } from '../../Grid/Grid';
+import { Grid } from '../Grid/Grid';
 import { ArticleCard, ArticleCardProps } from '../ArticleCard/ArticleCard';
 import styles from './ArticleList.module.css';
 

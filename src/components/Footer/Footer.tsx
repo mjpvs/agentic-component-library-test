@@ -1,4 +1,4 @@
-import { Flex } from '../../Flex/Flex';
+import { Flex } from '../Flex/Flex';
 import styles from './Footer.module.css';
 
 export interface FooterProps {
