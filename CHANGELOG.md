@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/mjpvs/agentic-component-library-test/compare/v1.0.0...v1.1.0) (2026-03-17)
+
+### Features
+
+* **publication:** add npm auto publication ([873e6c9](https://github.com/mjpvs/agentic-component-library-test/commit/873e6c96e29d9c866677508038129d4c48daeb84))
+
 ## 1.0.0 (2026-03-17)
 
 ### Features
