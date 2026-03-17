@@ -1,5 +1,6 @@
 # React Component Library
 
+[![npm](https://img.shields.io/npm/v/@mjpvs/agentic-component-library-test)](https://www.npmjs.com/package/@mjpvs/agentic-component-library-test)
 [![Test Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/your-org/your-repo/actions)
 
 A modern React component library built with TypeScript, Storybook, and Vitest. Generated entirely agentically as a learning experiment to explore automated component library creation.
