@@ -12,6 +12,12 @@ export interface VideoProps {
   title?: string;
 }
 
+const aspectClasses: Record<'16-9' | '4-3' | '1-1', string> = {
+  '16-9': styles['aspect-169'],
+  '4-3': styles['aspect-43'],
+  '1-1': styles['aspect-11'],
+};
+
 export function Video({
   videoId,
   className = '',
@@ -34,7 +40,7 @@ export function Video({
   const src = `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
 
   return (
-    <div className={`${styles.video} ${styles[`aspect-${aspectRatio.replace('-', '')}`]} ${className}`}>
+    <div className={`${styles.video} ${aspectClasses[aspectRatio]} ${className}`}>
       <iframe
         src={src}
         title={title}

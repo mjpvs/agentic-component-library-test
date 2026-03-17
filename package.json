@@ -18,7 +18,7 @@
   "scripts": {
     "dev": "vite",
     "build:tokens": "node tokens/build.js",
-    "build": "npm run build:tokens && vite build && tsc -p tsconfig.build.json",
+    "build": "npm run build:tokens && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
@@ -79,6 +79,7 @@
     "typescript-eslint": "^8.18.2",
     "vite": "^6.0.5",
     "vite-plugin-css-injected-by-js": "^4.0.1",
+    "vite-plugin-dts": "^4.5.4",
     "vitest": "^4.1.0"
   }
 }

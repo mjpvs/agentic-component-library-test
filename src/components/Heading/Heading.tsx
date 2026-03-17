@@ -6,7 +6,7 @@ export interface HeadingProps {
   className?: string;
 }
 
-const levelClasses: Record<number, string> = {
+const levelClasses: Record<1 | 2 | 3 | 4 | 5 | 6, string> = {
   1: styles['heading-1'],
   2: styles['heading-2'],
   3: styles['heading-3'],

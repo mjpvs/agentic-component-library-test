@@ -7,7 +7,7 @@ export interface CardProps {
   padding?: 'none' | 'small' | 'medium' | 'large';
 }
 
-const paddingClasses: Record<string, string> = {
+const paddingClasses: Record<'none' | 'small' | 'medium' | 'large', string> = {
   none: styles['card-padding-none'],
   small: styles['card-padding-small'],
   medium: styles['card-padding-medium'],

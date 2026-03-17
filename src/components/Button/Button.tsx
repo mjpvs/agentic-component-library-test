@@ -9,13 +9,13 @@ export interface ButtonProps {
   className?: string;
 }
 
-const variantClasses: Record<string, string> = {
+const variantClasses: Record<'primary' | 'secondary' | 'outline', string> = {
   primary: styles['btn-primary'],
   secondary: styles['btn-secondary'],
   outline: styles['btn-outline'],
 };
 
-const sizeClasses: Record<string, string> = {
+const sizeClasses: Record<'small' | 'medium' | 'large', string> = {
   small: styles['btn-small'],
   medium: styles['btn-medium'],
   large: styles['btn-large'],

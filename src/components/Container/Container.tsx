@@ -6,7 +6,7 @@ export interface ContainerProps {
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | 'full';
 }
 
-const sizeClasses: Record<string, string> = {
+const sizeClasses: Record<'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | 'full', string> = {
   xs: styles['container-xs'],
   sm: styles['container-sm'],
   md: styles['container-md'],

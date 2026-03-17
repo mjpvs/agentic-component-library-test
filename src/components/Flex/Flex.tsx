@@ -8,16 +8,17 @@ export interface FlexProps {
   align?: 'start' | 'end' | 'center' | 'stretch' | 'baseline';
   gap?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   wrap?: 'nowrap' | 'wrap' | 'wrap-reverse';
+  style?: React.CSSProperties;
 }
 
-const directionClasses: Record<string, string> = {
+const directionClasses: Record<'row' | 'column' | 'row-reverse' | 'column-reverse', string> = {
   row: styles['flex-row'],
   column: styles['flex-column'],
   'row-reverse': styles['flex-row-reverse'],
   'column-reverse': styles['flex-column-reverse'],
 };
 
-const justifyClasses: Record<string, string> = {
+const justifyClasses: Record<'start' | 'end' | 'center' | 'between' | 'around' | 'evenly', string> = {
   start: styles['justify-start'],
   end: styles['justify-end'],
   center: styles['justify-center'],
@@ -26,7 +27,7 @@ const justifyClasses: Record<string, string> = {
   evenly: styles['justify-evenly'],
 };
 
-const alignClasses: Record<string, string> = {
+const alignClasses: Record<'start' | 'end' | 'center' | 'stretch' | 'baseline', string> = {
   start: styles['align-start'],
   end: styles['align-end'],
   center: styles['align-center'],
@@ -34,12 +35,18 @@ const alignClasses: Record<string, string> = {
   baseline: styles['align-baseline'],
 };
 
-const gapClasses: Record<string, string> = {
+const gapClasses: Record<'xs' | 'sm' | 'md' | 'lg' | 'xl', string> = {
   xs: styles['gap-xs'],
   sm: styles['gap-sm'],
   md: styles['gap-md'],
   lg: styles['gap-lg'],
   xl: styles['gap-xl'],
+};
+
+const wrapClasses: Record<'nowrap' | 'wrap' | 'wrap-reverse', string> = {
+  nowrap: '',
+  wrap: styles['flex-wrap'],
+  'wrap-reverse': styles['flex-wrap-reverse'],
 };
 
 export function Flex({
@@ -50,6 +57,7 @@ export function Flex({
   align = 'stretch',
   gap,
   wrap = 'nowrap',
+  style,
 }: FlexProps) {
   const classes = [
     styles.flex,
@@ -57,10 +65,10 @@ export function Flex({
     justifyClasses[justify],
     alignClasses[align],
     gap ? gapClasses[gap] : '',
-    wrap === 'nowrap' ? '' : wrap === 'wrap' ? styles['flex-wrap'] : styles['flex-wrap-reverse'],
+    wrapClasses[wrap],
   ]
     .filter(Boolean)
     .join(' ');
 
-  return <div className={`${classes} ${className}`}>{children}</div>;
+  return <div className={`${classes} ${className}`} style={style}>{children}</div>;
 }
